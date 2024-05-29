@@ -103,6 +103,11 @@ p {
     font-size: 1.2rem;
     font-weight: 700;
     border-radius: 10px;
+  
+}
+
+.teacher .col2 button:hover {
+    outline: 2px solid blue;
 }
 
 .join h1 {
@@ -125,7 +130,7 @@ p {
    
 }
 
-ul li  {
+.join-academy ul li  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,7 +147,58 @@ ul li  {
 
 }
 
+ul li:hover {
+    outline: 2px solid blue;
+}
+.footer {
+    height: 500px;
+    
+    background-color:#0B2149;
+    color: #8295BA;
+    padding: 50px 500px 40px 200px;
+    display: flex;
+    justify-content: space-evenly;
+    
 
+   
+}
 
+.footer .row1 span {
+    color:blue;
+}
 
+/* .footer .row1 {
+    padding: 40px 40px 30px 200px;
+    
+} */
 
+.footer .row1 {
+    font-size: 1.5rem;
+}
+
+.footer-1 {
+    margin-top: 190px;
+}
+
+.footer-1-a {
+    margin-top: 10px;
+}
+
+.footer-1-b {
+    margin-top: 30px;
+   
+}
+
+.row1 .footer-1-b,a {
+    color: white;
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: .85rem;
+    
+}
+
+.row2 ,.row3 ,.row4 ,ul li  {
+    list-style: none;
+    margin-top: 13px;
+    
+}
