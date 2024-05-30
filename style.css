@@ -11,6 +11,8 @@
     height:60px;
     border: 1px solid rgba(0, 0, 0, 0.247);
 }
+
+
 .col {
     display: flex; 
    gap:40px;    
@@ -201,4 +203,45 @@ ul li:hover {
     list-style: none;
     margin-top: 13px;
     
+}
+
+#class {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.nav-search {
+    box-shadow: 1px 1px 1px 1px ;
+   
+}
+
+
+.nav-search:hover {
+    outline: 2px solid blue;
+}
+
+.nav-search input {
+    padding: 5px;
+    border: none;
+    /* border: 2px solid white;
+    border-right: none; */
+
+}
+
+.nav-search i {
+    font-size: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.301);
+    border: none;
+}
+
+.nav-search input:active {
+    border: none;
 }
